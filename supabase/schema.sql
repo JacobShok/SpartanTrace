@@ -150,6 +150,6 @@ CREATE POLICY "Allow claims" ON claims FOR ALL USING (true);
 CREATE POLICY "Allow conversations" ON conversations FOR ALL USING (true);
 CREATE POLICY "Allow messages" ON messages FOR ALL USING (true);
 CREATE POLICY "Allow notifications" ON notifications FOR ALL USING (true);
-CREATE POLICY "Allow alerts" ON alerts FOR ALL USING (true);
+CREATE POLICY "Allow alerts" ON lost_item_alerts FOR ALL USING (true);
 CREATE POLICY "Allow reports" ON reports FOR ALL USING (true);
 CREATE POLICY "Allow audit logs" ON admin_audit_logs FOR ALL USING (true);
